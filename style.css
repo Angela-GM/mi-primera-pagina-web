@@ -12,6 +12,7 @@
 body {
     font-family: "Nunito";
     font-size: 18px;
+    margin: 0 6rem;
 }
 header, main, footer {
     /* border: 1px solid red; */
@@ -27,10 +28,7 @@ a {
 }
 
 
-/* Imagen principal */
-.code-img {
-    width: 50vw;
-}
+
 
 /* HEADER */
 header {
@@ -54,6 +52,33 @@ nav > ul {
 
 nav > h2 {
     font-size: 700;
+}
+
+
+/* MAIN */
+#presentacion {
+    display: flex;
+    align-items: center;
+}
+#presentacion > article {
+    display: flex;
+    flex-direction: column;
+    max-width: 80vh;
 
 }
+#presentacion h2 {
+    color: #FDC435;
+}
+#presentacion h1 {
+    font-family: "Playfair Display";
+    font-size: 2.7rem;
+    font-weight: 700;
+
+}
+
+/* Imagen principal */
+#code-img {
+    min-width: 20vh;
+}
+
 
