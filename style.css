@@ -1,0 +1,59 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:wght@400;700&family=Playfair+Display&family=Raleway:wght@500&display=swap');
+
+/* Reset estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    
+/* Estilo globales */
+body {
+    font-family: "Nunito";
+    font-size: 18px;
+}
+header, main, footer {
+    /* border: 1px solid red; */
+}
+
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Imagen principal */
+.code-img {
+    width: 50vw;
+}
+
+/* HEADER */
+header {
+    font-family: "Comfortaa";
+    margin: 1.5rem 0;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+nav > h2 {
+    font-size: 700;
+
+}
+

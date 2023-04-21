@@ -7,20 +7,34 @@
     <title>Mi primera página web - Angela GM</title>
     <!-- Style CSS -->
     <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0dc21b8ed4.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header -->
     <header>
       <nav>
-        <h2>Angela Garcia Muñoz</h2>
+        <h2>Angela Garcia</h2>
         <ul>
-          <li>Sobre mi</li>
+          <li><a href="/about.html">Sobre mi</a></li>
           <li><a href="#projectos">Projectos</a></li>
           <li><a href="#contactos">Contactos</a></li>
         </ul>
       </nav>
-      <!-- main -->
-      <main>
+    </header>
+    <!-- Falta la foto y el grafico de fondo, colocar en la parte superior derecha -->
+    <img
+      class="code-img"
+      src="https://res.cloudinary.com/drjyg98uv/image/upload/v1682085161/portfolio/coding_qritwd.jpg"
+      alt="coding"
+    />
+
+    <!-- main -->
+    <main>
+      <section>
         <h2>Frontend Developer</h2>
         <h1>Hola, mi nombre es Angela Garcia Muñoz</h1>
         <p>
@@ -32,87 +46,87 @@
           <button>Projects</button>
           <button>LinkedIn</button>
         </div>
-      </main>
-    </header>
+      </section>
 
-    <!-- Projects -->
-    <section id="projectos">
-      <h2>Projectos</h2>
-      <!-- Ptoyecto 1 -->
-      <article>
-        <div>
-          <h3>Nombre del proyecto</h3>
-          <p>
-            I created this personal project in order to show how to create an
-            interface in Figma using a portfolio as an example.
-          </p>
-          <button>Ver proyecto</button>
-        </div>
-        <figure>
-          <img src="#" alt="foto del proyecto" />
-        </figure>
-      </article>
-      <!-- Proyecto 2 -->
-      <article>
-        <div>
-          <h3>Nombre del proyecto</h3>
-          <p>
-            I created this personal project in order to show how to create an
-            interface in Figma using a portfolio as an example.
-          </p>
-          <button>Ver proyecto</button>
-        </div>
-        <figure>
-          <img src="#" alt="foto del proyecto" />
-        </figure>
-      </article>
-      <!-- Proyecto 3 -->
-      <article>
-        <div>
-          <h3>Nombre del proyecto</h3>
-          <p>
-            I created this personal project in order to show how to create an
-            interface in Figma using a portfolio as an example.
-          </p>
-          <button>Ver proyecto</button>
-        </div>
-        <figure>
-          <img src="#" alt="foto del proyecto" />
-        </figure>
-      </article>
-    </section>
+      <!-- Projects -->
+      <section id="projectos">
+        <h2>Projectos</h2>
+        <!-- Ptoyecto 1 -->
+        <article>
+          <div>
+            <h3>Nombre del proyecto</h3>
+            <p>
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example.
+            </p>
+            <button>Ver proyecto</button>
+          </div>
+          <figure>
+            <img src="#" alt="foto del proyecto" />
+          </figure>
+        </article>
+        <!-- Proyecto 2 -->
+        <article>
+          <div>
+            <h3>Nombre del proyecto</h3>
+            <p>
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example.
+            </p>
+            <button>Ver proyecto</button>
+          </div>
+          <figure>
+            <img src="#" alt="foto del proyecto" />
+          </figure>
+        </article>
+        <!-- Proyecto 3 -->
+        <article>
+          <div>
+            <h3>Nombre del proyecto</h3>
+            <p>
+              I created this personal project in order to show how to create an
+              interface in Figma using a portfolio as an example.
+            </p>
+            <button>Ver proyecto</button>
+          </div>
+          <figure>
+            <img src="#" alt="foto del proyecto" />
+          </figure>
+        </article>
+      </section>
 
-    <!-- Contacts -->
-    <section id="contactos">
-      <form action="">
-        <fieldset>
-          <label for="nombre">Nombre:</label>
-          <input
-            type="text"
-            id="nombre"
-            placeholder="Nombre..."
-            autocomplete="off"
-          />
-          <label for="email">Email:</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="email@email.com"
-            autocomplete="off"
-          />
-          <label for="mensaje">Mensaje:</label>
-          <textarea
-            name="mensaje"
-            id="mensaje"
-            cols="30"
-            rows="10"
-            placeholder="Escribe tu mensaje..."
-            autocomplete="off"
-          ></textarea>
-        </fieldset>
-        <input type="submit" value="Enviar" />
-      </form>
-    </section>
+      <!-- Contacts -->
+      <section id="contactos">
+        <form action="">
+          <fieldset>
+            <label for="nombre">Nombre:</label>
+            <input
+              type="text"
+              id="nombre"
+              placeholder="Nombre..."
+              autocomplete="off"
+            />
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="email@email.com"
+              autocomplete="off"
+            />
+            <label for="mensaje">Mensaje:</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="30"
+              rows="10"
+              placeholder="Escribe tu mensaje..."
+              autocomplete="off"
+            ></textarea>
+          </fieldset>
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -123,8 +137,6 @@
       </ul>
 
       <small>Angela GM 2023</small>
-
-      <!-- Falta la foto y el grafico de fondo, colocar en la parte superior derecha -->
     </footer>
   </body>
 </html>
