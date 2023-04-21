@@ -14,6 +14,13 @@ body {
     font-size: 18px;
     margin: 0 6rem;
 }
+
+h1 {
+    font-family: "Playfair Display";
+    font-size: 2.7rem;
+    font-weight: 700;
+
+}
 p {
     color: #828282;
     margin: 1.1rem 0;
@@ -78,6 +85,7 @@ main {
 }
 /* Imagen principal */
 #code-img {
+    width: 70vh;
     min-width: 20vh;
     margin-left: 3rem;
 }
@@ -101,15 +109,10 @@ main>section > article:nth-child(even){
     color: #FDC435;
     font-size: 1.1rem;
 }
-#presentacion h1 {
-    font-family: "Playfair Display";
-    font-size: 2.7rem;
-    font-weight: 700;
 
-}
 
 #proyectos {
-    margin:3rem 0;
+    margin:7rem 0;
 }
 
 #proyectos figure>img {
@@ -165,6 +168,19 @@ article {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+  /* FOOTER */
+  footer>ul, small {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  .fa-brands, .fa-solid {
+    font-size: 1.5rem;
+  }
+  
 
 
 
