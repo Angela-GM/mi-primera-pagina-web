@@ -48,6 +48,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 3rem 0;
 
 }
 
@@ -58,11 +59,28 @@ nav > ul {
 }
 
 nav > h2 {
-    font-size: 700;
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 
+nav > h2 a:hover {
+    color: black;
+}
+
+nav >ul >li> a:hover {
+    text-decoration: underline;
+}
 
 /* MAIN */
+main {
+    width: 90vw;
+    margin: auto;
+}
+/* Imagen principal */
+#code-img {
+    min-width: 20vh;
+    margin-left: 3rem;
+}
 #presentacion {
     display: flex;
     align-items: center;
@@ -71,10 +89,17 @@ nav > h2 {
     display: flex;
     flex-direction: column;
     max-width: 80vh;
-
 }
+
+main>section > article:nth-child(even){
+    /* border: solid red 1px; */
+    flex-direction: row;
+}
+
+
 #presentacion h2 {
     color: #FDC435;
+    font-size: 1.1rem;
 }
 #presentacion h1 {
     font-family: "Playfair Display";
@@ -83,10 +108,64 @@ nav > h2 {
 
 }
 
-/* Imagen principal */
-#code-img {
-    min-width: 20vh;
-    margin-left: 3rem;
+#proyectos {
+    margin:3rem 0;
 }
+
+#proyectos figure>img {
+    width: 400px;
+}
+
+#proyectos>h2 {
+    text-align: center;
+    font-family: "Playfair Display";
+    text-decoration: overline;
+    text-decoration-color:#FDC435;
+
+}
+
+article {
+    width: 70vw;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+}
+
+
+/* ABOUT.HTML */
+#sobre-mi {
+    display: flex;
+    align-items: center;
+}
+#sobre-mi>article {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    /* padding: 2rem 2rem; */
+}
+
+.container-foto-perfil {
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    background-color: #FDC435;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .foto-perfil {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-image: url("https://res.cloudinary.com/drjyg98uv/image/upload/v1682098574/portfolio/angela-removebg-preview_celkhz-removebg-preview_srshya.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+
 
 
