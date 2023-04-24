@@ -12,7 +12,7 @@
 body {
     font-family: "Nunito";
     font-size: 18px;
-    margin: 0 6rem;
+    /* margin: 0 6rem; */
 }
 
 h1 {
@@ -38,14 +38,22 @@ a {
 } 
 a:visited {color:black} 
 a:active {color:#FDC435;} 
-a:hover {color:#FDC435;} 
+a:hover {color:white;} 
 
 
 
 /* HEADER */
 header {
     font-family: "Comfortaa";
-    margin: 1.5rem 0;
+    position: relative;
+}
+header > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    width: 50%;
+
 }
 
 /* Nav */
@@ -53,7 +61,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 3rem 0;
+    padding: 3rem 0;
 
 }
 
@@ -74,6 +82,7 @@ nav > h2 a:hover {
 
 nav >ul >li> a:hover {
     text-decoration: underline;
+    color:white;
 }
 
 /* MAIN */
@@ -86,6 +95,8 @@ main {
     width: 70vh;
     min-width: 20vh;
     margin-left: 3rem;
+    box-shadow: 28px 10px 15px -3px rgba(0,0,0,0.1);
+
 }
 #presentacion {
     display: flex;
@@ -178,6 +189,22 @@ article {
   .fa-brands, .fa-solid {
     font-size: 1.5rem;
   }
+  
+  footer {
+    position: relative;
+    height: 100%;
+  }
+  footer>img {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+
+  }
+
+
+
   
 
 
