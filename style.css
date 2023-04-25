@@ -27,8 +27,6 @@ p {
     margin: 1.1rem 0;
 }
 
-
-
 li {
     list-style: none;
 }
@@ -111,10 +109,8 @@ main {
 
 main>section > article:nth-child(even){
     /* border: solid red 1px; */
-    flex-direction: row;
-    
+    flex-direction: row;    
 }
-
 
 #presentacion h2 {
     color: #FDC435;
@@ -139,8 +135,6 @@ main>section > article:nth-child(even){
 }
 
 /* PROYECTOS */
-
-
 #proyectos figure {
     width: 50vw;
     
@@ -184,12 +178,21 @@ article {
     padding: 8px 24px;
     text-align: center;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .btn-proyecto:hover {
     color: #FDC435;
-    border-color: #FDC435;
+    /* border-color: #FDC435; */
 }
+
+.btn-proyecto>a:hover {
+    text-decoration: none;
+    color: #FDC435;
+
+}
+
+
 
 
 /* ABOUT.HTML */
@@ -223,6 +226,17 @@ article {
     background-position: center;
     background-repeat: no-repeat;
   }
+
+
+/* Contact */
+#contactos {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
 
   /* FOOTER */
   footer>ul, small {
