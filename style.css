@@ -134,6 +134,9 @@ main>section > article:nth-child(even){
     background-color: none;
     border: 1px black solid;
 }
+.linkedin a:hover {
+    color:#FDC435;
+}
 
 /* PROYECTOS */
 
@@ -180,6 +183,12 @@ article {
     border-radius: 24px;
     padding: 8px 24px;
     text-align: center;
+    cursor: pointer;
+}
+
+.btn-proyecto:hover {
+    color: #FDC435;
+    border-color: #FDC435;
 }
 
 
