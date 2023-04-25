@@ -12,6 +12,7 @@
 body {
     font-family: "Nunito";
     font-size: 18px;
+    background-color: #e5e5e5b0;
     /* margin: 0 6rem; */
 }
 
@@ -61,7 +62,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem 0;
+    padding: 3rem;
 
 }
 
@@ -111,6 +112,7 @@ main {
 main>section > article:nth-child(even){
     /* border: solid red 1px; */
     flex-direction: row;
+    
 }
 
 
@@ -119,13 +121,22 @@ main>section > article:nth-child(even){
     font-size: 1.1rem;
 }
 
+/* PROYECTOS */
 
 #proyectos {
-    margin:7rem 0;
+    /* margin:7rem 0; */
+}
+#proyectos figure {
+    width: 50vw;
+    
 }
 
 #proyectos figure>img {
-    width: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    
 }
 
 #proyectos>h2 {
@@ -140,9 +151,23 @@ article {
     width: 70vw;
     margin: 3rem auto;
     display: flex;
-    flex-direction: row-reverse;
-    
+    flex-direction: row-reverse; 
 
+   
+
+}
+
+.bg-white {
+    background-color: white;
+}
+
+
+
+#proyectos>article>div {
+    width: 50vw;
+    padding: 3rem;
+
+    /* border: #FDC435 solid 1px; */
 }
 
 
