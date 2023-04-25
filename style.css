@@ -120,12 +120,24 @@ main>section > article:nth-child(even){
     color: #FDC435;
     font-size: 1.1rem;
 }
+.btn {
+    padding: 12px 14px;
+    border-radius: 8px;
+
+}
+
+.projects {
+    background-color: #FDC435;
+    border: none;
+}
+.linkedin {
+    background-color: none;
+    border: 1px black solid;
+}
 
 /* PROYECTOS */
 
-#proyectos {
-    /* margin:7rem 0; */
-}
+
 #proyectos figure {
     width: 50vw;
     
@@ -134,9 +146,7 @@ main>section > article:nth-child(even){
 #proyectos figure>img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-
-    
+    object-fit: cover;    
 }
 
 #proyectos>h2 {
@@ -151,9 +161,7 @@ article {
     width: 70vw;
     margin: 3rem auto;
     display: flex;
-    flex-direction: row-reverse; 
-
-   
+    flex-direction: row-reverse;
 
 }
 
@@ -162,12 +170,16 @@ article {
 }
 
 
-
 #proyectos>article>div {
     width: 50vw;
     padding: 3rem;
+}
 
-    /* border: #FDC435 solid 1px; */
+.btn-proyecto {
+    border: 1px solid black;
+    border-radius: 24px;
+    padding: 8px 24px;
+    text-align: center;
 }
 
 
